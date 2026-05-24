@@ -1,0 +1,46 @@
+# ---------------------------------------------------
+#               Messages Configuration
+# ---------------------------------------------------
+#
+# This file controls all the messages shown to players.
+# You can use standard Minecraft color codes with the '&' symbol.
+# You can also use hex color codes, e.g., '&#FFD700' for a custom gold color.
+# Placeholders like {0}, {1}, etc., will be replaced by the plugin automatically.
+
+# ============================================================
+# CORE MESSAGES - DO NOT MODIFY THIS SECTION
+# ============================================================
+
+# The prefix that appears before most plugin messages.
+prefix: "&#FFD700PLUGIN_NAME &e» "
+
+# General Messages
+no-permission: "&cYou do not have permission to perform this action."
+
+# Reload Command Message
+reload-start: "&eReloading plugin... Please wait."
+reload-success: "&aPlugin successfully reloaded! All configuration files are up to date."
+
+# ============================================================
+# AI_CAN_ADD_MESSAGES - Add custom messages below this line
+# ============================================================
+
+# Joke Messages
+# Used when a joke is successfully delivered.
+joke-delivered: "&aHere is your joke: {0}"
+
+# Used when no jokes are configured/found.
+joke-not-configured: "&cNo jokes are configured right now."
+
+# Used when the joke feature is disabled by config.
+feature-disabled: "&cThe joke feature is currently disabled."
+
+# Used when the plugin fails to deliver a joke due to an error.
+joke-delivery-failed: "&cSorry, I couldn't deliver a joke right now. Please try again later."
+
+# Used for incorrect usage of the joke command.
+joke-command-usage: "&eUsage: /joke joke"
+
+# ============================================================
+# AI_END - Do not add messages after this line
+# ============================================================
